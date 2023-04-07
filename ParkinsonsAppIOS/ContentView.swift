@@ -8,8 +8,37 @@
 import SwiftUI
 import Foundation
 
-struct ContentView: View {
+struct FirstView: View {
     var body: some View {
+        NavigationView{
+            VStack{
+            MainView()
+                .navigationTitle("Main View")
+                .offset(y:-200)
+                
+                
+                NavigationLink(destination: SecondView(), label:{Text("yes")})
+                
+            }
+        }
+    }
+}
+
+struct SecondView: View {
+    var body: some View {
+            VStack{
+            MainView()
+                .navigationTitle("Next View")
+                .offset(y:-200)
+                
+                NavigationLink(destination: Text("d"), label:{Text("yes")})
+                
+            }
+    }
+}
+struct MainView: View{
+    var body: some View {
+        
         var n = 0
         
         VStack{
@@ -25,7 +54,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        FirstView()
             
     }
 }

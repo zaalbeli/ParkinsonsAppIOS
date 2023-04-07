@@ -11,7 +11,7 @@ import SwiftUI
 struct ParkinsonsAppIOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FirstView()
         }
     }
 }
