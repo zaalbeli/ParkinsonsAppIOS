@@ -6,13 +6,18 @@
 //
 
 import SwiftUI
+import Foundation
 
 struct ContentView: View {
     var body: some View {
+        var n = 0
+        
         VStack{
-            Image("trial")
-                .cornerRadius(20)
-                Text("Main Activity")
+            Button("Click me", action: {
+                n = n + 1
+                print(n)
+            })
+          //  Text("Main Activity")
             }
         .padding()
     }
@@ -21,5 +26,9 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            
     }
 }
+
+
+//Image("trial").resizable().frame(width: 150.0, height: 150.0)//
