@@ -41,3 +41,15 @@ https://user-images.githubusercontent.com/97764660/230759651-5301a0eb-63a4-4e52-
 
 
 
+
+DATASETS USED FOR ML: 
+https://www.kaggle.com/datasets/anoushkasud/parkinson-spiral-test 
+
+https://www.kaggle.com/datasets/kmader/parkinsons-drawings
+
+https://www.kaggle.com/datasets/banilkumar20phd7071/handwritten-parkinsons-disease-augmented-data
+
+
+******Quick Note on Demo: The drawing classified as parkinsons was traced from a spiral test online from a patient medically diagnosed with Parkinsons
+
+
